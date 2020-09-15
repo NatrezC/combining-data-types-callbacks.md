@@ -60,3 +60,22 @@ const foo = () => {
 }
 foo();
 
+//-----------------------------------------------------------------------
+// What is meant by the error(s) this produces ?
+
+//     foo();
+
+// const foo () => {
+//     console.log('hi');
+// }
+
+/*const foo = () => { 
+    console.log('hi');
+}
+foo();*/
+ //it was missing the "=" in between foo and()
+//and needed to drag foo() to the bottom
+
+//------------------------------------------------------------------------
+
+
