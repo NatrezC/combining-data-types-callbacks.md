@@ -27,3 +27,26 @@ console.log(receipt[0].color)
 const apartmentBuilding = ["Trez","Stacy", {tenant: ["Jacob", "Calob"]}, "Shannon"]
 
 console.log(apartmentBuilding[2].tenant[1])
+//---------------------------------------------------------------------
+
+// Create a function knit that returns an object that has the following kinds of properties item: scarf, size : 6ft etc. Log a value of that object (hint: call the function and then call a property on the return value).
+const knit = {
+    item: "scarf",
+    size: "6ft",
+    color: "blue"
+}
+console.log(knit.size)
+
+// Create a function crayonSelector that returns an object that has an array (you can reuse your crayonBox object). Log one of the elements of that array.
+const crayonSelector = {
+    colors: ["blue", "orange", "red", "black"]
+}
+console.log(crayonSelector.colors[2])
+
+// Create a function powerButton that returns a function called options - options should console.log a simple message like select a song. Call that inner function
+
+//const powerButton = () => {
+//     const options = ["Select a song"]
+//     }
+// console.log(powerButton(options)) <------couldnt figure out
+
