@@ -36,3 +36,27 @@ console.log(calculate(5, 4, add))
 console.log(calculate(5, 5, subtract))
 console.log(calculate(5, 5, multiply))
 console.log(calculate(5, 5, division))
+
+//------------------------------------------------------------------------
+// Clean up this code, so that it works and has function definitions in the correct place
+
+// bar();
+// const bar = () => {
+//     console.log('bar here');
+// }
+// foo();
+
+// const foo = () => {
+//     console.log('foo here');
+// }
+
+const bar = () => {
+    console.log('bar here');
+}
+bar();
+
+const foo = () => {
+    console.log('foo here');
+}
+foo();
+
