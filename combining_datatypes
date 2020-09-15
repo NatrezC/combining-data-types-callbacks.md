@@ -49,4 +49,23 @@ console.log(crayonSelector.colors[2])
 //     const options = ["Select a song"]
 //     }
 // console.log(powerButton(options)) <------couldnt figure out
+//----------------------------------------------------------------------
+//Model a Vending Machine Model a vending machine
 
+//a vending machine is an object
+//it has an array of snacks (make 3 snacks)
+// snacks are objects that have a name and a price
+// a vending machine has a function vend that allows user to enter the array position (a number) of the snack and then that snack will be returned
+// Be able to call vendingMachine.vend() with a valid integer to return a snack
+
+const vendingMachine = {
+    items: [
+        {name: "Doritos",
+        price: "$1"},
+        {name: "Cheetos",
+        price: "$1.25"},
+        {name: "Fritos",
+        price: "$1.50"}
+    ]
+}
+console.log(vendingMachine.items[0])
